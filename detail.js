@@ -1119,16 +1119,4 @@ function CityList(state) {
     }
 }
 
-//post-way
-let post_way = document.querySelector('#post-way')
 
-function changeCity(value, total) {
-    if (value === 'سبزوار') {
-        post_way.value = 'ارسال با پیک'
-        post_way.name = 'sabz'
-    }else {
-        post_way.value = 'پست پیشتاز'
-        post_way.name = 'other'
-    }
-
-}
